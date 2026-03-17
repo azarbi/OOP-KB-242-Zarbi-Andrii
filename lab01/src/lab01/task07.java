@@ -9,7 +9,7 @@ public class task07 {
         while (numbers != 0){ 
             if (max < numbers){
                 max = numbers;
-        }
+            }
             numbers = in.nextInt();
         }
         System.out.printf("Result: %d\n", max);        
